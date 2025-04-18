@@ -1,0 +1,98 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    padding: 0;
+}
+header {
+    background-size: cover;
+    color: #ececec;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    transition: background-color 0.1s ease;
+}
+.logo-container {
+    display: flex; 
+    justify-content: center; 
+    height: 30vh;
+  }
+  .logo {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; /* Ensures the image is cropped correctly in the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect (optional) */
+  }
+  .lgname{
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: bold;
+    color: #d8d4f2 ;
+  }
+  .content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+.content > * { 
+    width: 800px; 
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    color: rgb(10, 10, 11);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.content > *:hover {
+    transform: scale(.5.5);
+    background-color: #2980b9;
+}
+.m1 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(13, 59, 90, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    padding: 2rem;
+    text-align: center;
+
+}
+.m1 h1 {
+    margin-top: 0;
+    color: #351780;
+    font-size: 1.2rem;
+}
+.butt {
+    background-color: hwb(215 2% 74%);
+    color: rgb(245, 232, 253);
+
+    padding: 10px 20px;
+    text-align: center ;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.butt:hover {
+    background-color: #030c11;
+    transition: transform 5s ease, box-shadow s ease;
+    position: relative;
+}
+
+h1 {
+    border: 1px solid black;
+    padding: 4px 8px;
+    display: inline-block;
+    border-radius: 4px;
+}

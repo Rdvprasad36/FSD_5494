@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Timetable</title>
+  <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+    }
+    .home-butt{
+            align-items: center;
+            background-color: #42659d;
+            border-radius: 30cap;
+            text-align: center;
+            padding: 16px 32px;
+        }
+    .header{
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      text-align: center;
+      border-color: black;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    td[colspan] {
+      font-weight: bold;
+    }
+    .lunch {
+      writing-mode: vertical-rl;
+      text-align: center;
+      font-weight: bold;
+      width: 50px;
+    }
+    .fullstack { background: #4caf50;}
+    .sds { background: #a1d6e8; }
+    .pai { background: #f76b8a; }
+    .idslab { background: #f9e68a; }
+    .dlco { background: #9b4f9e; }
+    .idt { background: #5a5a5a; color: white; }
+    .ids { background: #f9e68a; }
+    .mefa { background: #a8d8a1; }
+    .weeklytest { background: #f3f68a; }
+    .coun { background: #b0b0b0; }
+    .vs { background: #d1f0fa; }
+    .sports { background: #b0b0b0;}
+    .ialab { background: #4dc3f7; }
+    .lib { background: #b0b0b0; }
+    .home-butt {
+      background-color: #2f2baf;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: large;
+    }
+    .home-butt:hover {
+      background-color:#7f7cc4;
+    }
+  </style>
+</head>
+<body>
+    <div class="header">
+        VIGNAN'S INSTITUTE OF INFORMATION TECHNOLOGY (A)::VISAKHAPATNAM<br>
+        DEPARTMENT OF AI&DS<br>
+        II B.TECH - II SEM; AY: 2024-2025 (2023 ADMITTED)
+    </div>
+  <table style="width: 80%; border:1px solid black; border-collapse: collapse; text-align: center;">
+    <tr>
+        <th rowspan="2">Time/Day</th>
+        <th colspan="4">Section 2</th>
+        <th colspan="4">w.e.f : 03.02.2025</th> 
+    </tr>
+    <tr>
+      <th>10:00 - 10:50</th>
+      <th>10:50 - 11:40</th>
+      <th>11:40 - 12:30</th>
+      <th>12:30 - 1:20</th>
+      <td>1:20  - 2:10</td>
+      <th>2:10 - 3:00</th>
+      <th>3:00 - 3:50</th>
+      <th>4:00 - 4:50</th>
+    </tr>
+    <tr>
+      <td>MON</td>
+      <td colspan="2" class="fullstack">FULL STACK(AB-04)</td>
+      <td class="sds">SDS</td>
+      <td class="pai">PAI</td>
+      <td rowspan="7" class="lunch">LUNCH</td>
+      <td colspan="3" class="idslab">IDS LAB(AB-05)</td>
+    </tr>
+    <tr>
+      <td>TUE</td>
+      <td class="dlco">DLCO</td>
+      <td class="pai">PAI</td>
+      <td colspan="2" class="idt">IDT</td>
+      <td class="ids">IDS</td>
+      <td class="mefa">MEFA</td>
+      <td class="dlco">DLCO</td>
+    </tr>
+    <tr>
+      <td>WED</td>
+      <td colspan="2" class="weeklytest">WEEKLY TEST</td>
+      <td class="mefa">MEFA</td>
+      <td class="ids">IDS</td>
+      <td class="pai">PAI</td>
+      <td class="dlco">DLCO</td>
+      <td class="coun">COUN</td>
+    </tr>
+    <tr>
+      <td>THU</td>
+      <td class="sds">SDS</td>
+      <td class="vs">VS</td>
+      <td class="dlco">DLCO</td>
+      <td class="ids">IDS</td>
+      <td class="pai">PAI</td>
+      <td class="mefa">MEFA</td>
+      <td class="sports">SPORTS</td>
+    </tr>
+    <tr>
+      <td>FRI</td>
+      <td class="mefa">MEFA</td>
+      <td class="sds">SDS</td>
+      <td class="pai">PAI</td>
+      <td class="ids">IDS</td>
+      <td colspan="3" class="pai">PAI LAB(AB-05)</td>
+    </tr>
+    <tr>
+      <td>SAT</td>
+      <td class="dlco">DLCO</td>
+      <td class="ialab">IA</td>
+      <td class="sds">SDS</td>
+      <td class="ids">IDS</td>
+      <td class="sds">SDS</td>
+      <td class="mefa">MEFA</td>
+      <td class="lib">LIB</td>
+    </tr>
+  </table>
+  
+  <h3 style="text-align: center;">Class Coordinator: Mr. P. Vijaya Bhaskar</h3>
+  <table style="width: 80%; border:1px solid black; border-collapse: collapse; text-align: center;">
+    <tr><th>Course</th><th>Faculty</th><th>Mobile</th></tr>
+    <tr><td>Managerial Economics & Financial Analysis</td><td>Auadhati Datta</td><td>8688216627</td></tr>
+    <tr><td>Statistical Methods for Data Science</td><td>N. Jaya Lalitha</td><td>6281492929</td></tr>
+    <tr><td>Principles of Artificial Intelligence</td><td>P. Vijay Bhaskar</td><td>9949527639</td></tr>
+    <tr><td>Introduction to Data Science</td><td>Dr. J. Peter Praveen</td><td>9949865863</td></tr>
+    <tr><td>Digital Logic & Computer Organization</td><td>Mr. A. Venkatesh</td><td>8712149722</td></tr>
+    <tr><td>Artificial Intelligence Lab</td><td>P. Vijay Bhaskar / B. Madhavi</td><td>9949527639 / 8074004677</td></tr>
+    <tr><td>Data Science using Python Lab</td><td>Dr. J. Peter Praveen / P. Vijay</td><td>9949865863 / 9949527639</td></tr>
+    <tr><td>Full Stack Development-1</td><td>B. Prameela</td><td>9701296324</td></tr>
+    <tr><td>Design Thinking & Innovation</td><td>Dr. K. K. Deepika</td><td>8688889898</td></tr>
+    <tr><td>Innovation</td><td>P. Vijay Bhaskar</td><td>9949527639</td></tr>
+    <tr><td>Verbal Skills</td><td>B. Eekshita</td><td>9957584444</td></tr>
+  </table>
+  <br>
+  <button class="home-butt" onclick="goHome()">Home</button>
+  <script>
+    function goHome() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>

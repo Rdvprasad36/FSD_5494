@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Programming Languages Overview</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .language-block {
+            background-color: #98cc9b;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .language-block h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .language-block p {
+            line-height: 1.5;
+            color: #555;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: Consolas, monospace;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Programming Languages Overview</h1>
+
+    <div class="language-block" id="html">
+        <h2>HTML</h2>
+        <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages.</p>
+        <p><strong>Basic structure:</strong></p>
+        <pre><code><!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    HTML (HyperText Markup Language):
+ HTML is the standard markup language used to create and design the structure of web pages. It works as the backbone of every website and determines how content is displayed in a browser.
+ Key Features:
+- Elements & Tags: HTML uses elements like html, head>, and body to define the structure. Tags like h1, p, and a create headings, paragraphs, and links.
+- Attributes: Tags can have attributes (e.g., href, src, class) to define additional properties.
+- Media Support: Incorporates images (img), videos video, and audio audio seamlessly.
+- Linking: Allows linking to other web pages or resources using a tags.
+- Forms: Collect user input through form elements with various input types.
+  </body>
+</html>
+</code></pre>
+        <p>HTML does not have input or syntax like programming languages; it defines the structure of web content.</p>
+    </div>
+
+    <div class="language-block" id="css">
+        <h2>CSS</h2>
+        <p>CSS (Cascading Style Sheets) is used to style HTML elements on a web page.</p>
+        <p><strong>Basic syntax:</strong></p>
+        <pre><code>selector {
+  property: value;
+}</code></pre>
+        <p>Example:</p>
+        <pre><code>body {
+  background-color: lightblue;
+}</code></pre>
+    </div>
+
+    <div class="language-block" id="java">
+        <h2>Java</h2>
+        <p>Java is a popular object-oriented programming language used for many types of applications.</p>
+        <p><strong>Basic program structure:</strong></p>
+        <pre><code>public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello, World!");
+  }
+}</code></pre>
+        <p><strong>Input example:</strong> Using Scanner class</p>
+        <pre><code>import java.util.Scanner;
+
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter your name: ");
+String name = scanner.nextLine();
+System.out.println("Hello, " + name);</code></pre>
+    </div>
+
+    <div class="language-block" id="javascript">
+        <h2>JavaScript</h2>
+        <p>JavaScript is a versatile scripting language primarily used for web development.</p>
+        <p><strong>Basic program example:</strong></p>
+        <pre><code>console.log("Hello, World!");</code></pre>
+        <p><strong>Input example:</strong> Using prompt()</p>
+        <pre><code>let name = prompt("Enter your name:");
+console.log("Hello, " + name);</code></pre>
+    </div>
+
+    <div class="language-block" id="c">
+        <h2>C</h2>
+        <p>C is a powerful procedural programming language widely used for system programming.</p>
+        <p><strong>Basic program structure:</strong></p>
+        <pre><code>#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}</code></pre>
+        <p><strong>Input example:</strong></p>
+        <pre><code>int number;
+printf("Enter a number: ");
+scanf("%d", &number);
+printf("You entered: %d\n", number);</code></pre>
+    </div>
+
+    <div class="language-block" id="python">
+        <h2>Python</h2>
+        <p>Python is a high-level, interpreted programming language known for its readability.</p>
+        <p><strong>Basic program example:</strong></p>
+        <pre><code>print("Hello, World!")</code></pre>
+        <p><strong>Input example:</strong></p>
+        <pre><code>name = input("Enter your name: ")
+print("Hello, " + name)</code></pre>
+    </div>
+
+</body>
+</html>
